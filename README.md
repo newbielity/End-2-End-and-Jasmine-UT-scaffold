@@ -1,7 +1,7 @@
 # End-2-End-and-Jasmine-UT-scaffold
 Protractor end to end test and Karma js module unit test 
 
-##Steps
+##Steps for end to end testing
 * Install Protractor
 ```javascript
   npm i protractor -g
@@ -12,3 +12,10 @@ Protractor end to end test and Karma js module unit test
 ```
 * webdriver-manager update
 * webdriver-manager start
+* Run protractor test/e2e/conf.js
+
+##Steps for jasmine unit testing, supports es6/es7
+* make sure you have chrome installed
+* npm i -g karma-cli
+* npm Install
+* npm test
