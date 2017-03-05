@@ -6,18 +6,18 @@ module.exports = function(config) {
     basePath: '',
     frameworks: ['jasmine'],
     files: [
-      'test/unit/*-test.js'
+      'tests/*-test.js'
     ],
     exclude: [
-      'test/unit/coverage/**/*.js'
+      'coverage/**/*.js'
     ],
     preprocessors: {
-      'test/unit/**/*-test.js': ['webpack']
+      '**/*-test.js': ['webpack']
     },
     reporters: ['progress', 'coverage'],
     coverageReporter: {
       type: 'html',
-      dir: 'test/unit/coverage/'
+      dir: 'coverage/'
     },
     port: 9876,
     colors: true,

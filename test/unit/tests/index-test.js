@@ -1,4 +1,4 @@
-const Util = require('../../sources/index')
+const Util = require('../../../sources/index')
 
 describe('index.js: ', () => {
   it('isNum() should work fine.', () => {
