@@ -12,10 +12,12 @@ Protractor end to end test and Karma js module unit test
 ```
 * webdriver-manager update
 * webdriver-manager start
-* Run protractor test/e2e/conf.js
+* run => protractor test/e2e/conf.js
 
 ##Steps for jasmine unit testing, supports es6/es7
 * make sure you have chrome installed
 * npm i -g karma-cli
 * npm Install
-* npm test
+* run => karma start test/unit/conf.js
+
+##To run end to end test and unit test together, you can simply run npm test.
